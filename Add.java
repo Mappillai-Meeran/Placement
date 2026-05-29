@@ -1,0 +1,9 @@
+public class Add {
+    public static int addTwoNumbers(int a, int b) {
+        int c=a+b;
+        return c;
+    }
+    public static void main(String args[]) {
+        System.out.println(addTwoNumbers(10, 20));
+    }
+}
